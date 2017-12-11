@@ -1,0 +1,112 @@
+.pt_services_show_item{
+  margin-top: 40px;
+}
+
+.services_sort_list{
+  background-color: $gray_background_color;
+  ul{
+    padding:0px;
+    margin: 0px;
+    li{
+      padding:10px 0px;
+      cursor: pointer;
+      a{
+        padding:0px 15px;
+        font-size: 14px;
+        text-decoration: none;
+        color: $main_black_font_color;
+        border-right: 1px solid $main_border_color;
+      }
+      &:hover{
+        a{
+          color: $main_blue_color;
+        }
+      }
+    }
+    & > .pt_active{
+      a{
+        color: $main_blue_color;
+      }
+    }
+  }
+}
+
+.show_item{
+  margin-top: 10px;
+  border: 1px solid $main_border_color;
+  & >ul {
+    margin: 0px;
+    & > li{
+      transition: all 0.2s;
+      border-bottom: 1px solid $main_border_color;
+
+      &:last-child{
+        border-bottom: 0px;
+      }
+      &:hover{
+        background-color: $gray_background_color;
+      }
+
+    }
+  }
+}
+
+.show_item_box{
+  padding:10px;
+}
+.show_item_box_left{
+  border-right: 1px solid $main_border_color;
+  width: 70%;
+}
+.show_item_tit{
+  & h4 a {
+    text-decoration: none;
+    color: $main_black_font_color;
+    &:hover{
+      color: $main_blue_color;
+    }
+  }
+}
+
+.show_item_img{
+  img{
+    width: 100px;
+  }
+}
+
+.show_item_tag{
+  span{
+    cursor: default;
+    padding:2px 7px;
+    color: white;
+  }
+}
+.show_item_box_right{
+  width: 30%;
+}
+.show_item_button{
+  margin-top: 30px;
+  a button{
+    padding:10px;
+    background-color: $main_blue_color;
+    color: white;
+    border: 0px;
+    transition: all 0.2s;
+    &:hover{
+      background-color:#2aabd2;
+    }
+  }
+}
+
+.show_item_des{
+  span{
+    color: $header-top-warp_font_color;
+  }
+}
+
+.user_classify_company_tag{
+  background-color: $main_blue_color;
+}
+.user_classify_person_tag{
+  background-color: #e69f00;
+}

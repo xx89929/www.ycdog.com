@@ -1,0 +1,96 @@
+.excellent_companys_nav{
+  padding:0px;
+  & ul > li{
+    padding:4px 14px;
+    a{
+      display: inline-block;
+      text-decoration: none;
+      color: #444;
+      font-size: 20px;
+    }
+  }
+}
+
+.excellent_companys_nav_li_active{
+  background-color: $main_blue_color;
+  a{
+    color: white !important;
+  }
+
+}
+
+.pt_search_company{
+  input{
+    border-radius: 0px;
+    height: 34px;
+    border: 1px solid $main_blue_color;
+  }
+
+  button{
+    background-color: $main_blue_color;
+    color: white;
+    border: 0px;
+    height: 34px;
+    border-radius: 0px;
+    transition:all 0.2s;
+    &:hover{
+      color: white;
+      background-color: $main_blue_color;
+    }
+    &:focus{
+      color: white;
+    }
+  }
+}
+
+.excellent_companys_content{
+  margin-top: 30px;
+}
+
+.excellent_companys_content_item{
+  display: none;
+  & > li{
+    width: 32%;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin: 5px 4px;
+    transition: all 0.2s;
+    &:hover{
+      border: 1px solid $main_blue_color;
+    }
+  }
+  & > a{
+    text-decoration: none;
+  }
+
+
+}
+
+.excellent_companys_content_item_left{
+  float: left;
+  width: 70%;
+  h4{
+    color: #444;
+  }
+  p{
+    color: #bebebe;
+  }
+  span{
+    border: 1px solid #e7e7e7;
+    color: #6d6d6d;
+  }
+}
+
+.excellent_companys_content_item_right{
+  width: 30%;
+  button{
+    border-radius: 0px;
+    color: white;
+    background-color: $main_blue_color;
+    transition: all 0.2s;
+    &:hover {
+      color: white;
+      background-color: #2aabd2;
+    }
+  }
+}

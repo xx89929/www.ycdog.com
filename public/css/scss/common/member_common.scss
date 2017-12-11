@@ -1,0 +1,163 @@
+@import "pt_common";
+
+/*******Member Resiter and login *************/
+.common_member_pages_top{
+  width: 100%;
+  padding:10px 0px;
+  display: inline-block;
+}
+
+
+.logo_icon{
+  padding-right: 40px;
+  border-right: 1px solid $main_border_color;
+  img{
+    height: 100px;
+  }
+}
+
+.logo_icon_tit{
+  padding:0px 40px;
+  height: 100px;
+  h1{
+    margin: 0px;
+    line-height: 100px;
+    height: 100px;
+    color: $main_black_font_color;
+  }
+}
+
+.common_member_pages_content{
+  width: 100%;
+  min-height: 700px;
+}
+
+#member_form_box_item{
+  display: none;
+}
+
+.member_form_box{
+  width: 30%;
+  padding:20px;
+  margin-top: 80px;
+  background-color: white;
+  h3{
+    text-align: center;
+  }
+}
+
+.member_form_box_input_box{
+  padding-bottom: 10px;
+  margin-top: 30px;
+  border-bottom: 1px dashed $dashed_color;
+}
+
+.member_form_box_group{
+  width: 100%;
+  margin-top: 30px;
+  &:first-child{
+    margin-top: 0px;
+  }
+  .member_form_box_group_span{
+    text-align: center;
+    height: 32px;
+    width: 30%;
+    padding:5px 10px;
+    float: left;
+    background-color: #d6d6d6;
+    border: 1px solid $main_border_color;
+  }
+  .get_verification_code_input{
+    width: 38%;
+  }
+  input{
+    padding:0px 10px;
+    width: 70%;
+    height: 32px;
+    position: relative;
+    left: -1px;
+    border-left: 0px;
+    border-right: 1px solid $main_border_color;
+    border-top: 1px solid $main_border_color;
+    border-bottom: 1px solid $main_border_color;
+  }
+  button{
+    width: 30%;
+    height: 32px;
+    border: 0px;
+    background-color: $main_blue_color;
+    color: white;
+    padding:5px 10px;
+    transition: all 0.2s;
+    &:hover{
+      background-color: #2aabd2;
+    }
+  }
+  .member_form_box_radio{
+    display: inline-block;
+    width: 100%;
+    label{
+      margin-bottom: 0px;
+      float: left;
+      width: 50%;
+      font-size: 10px;
+      font-weight: normal;
+      height: 32px;
+      line-height: 32px;
+      cursor: pointer;
+      input{
+        margin: 0px;
+        float: left;
+        width: 20px;
+        height: 32px;
+      }
+      span{
+
+      }
+    }
+  }
+}
+
+.member_form_box_submit_box{
+  margin-top: 10px;
+  width: 100%;
+  .member_form_box_submit_agreement{
+    & > a > span{
+      color: $main_black_font_color;
+    }
+  }
+  .member_form_box_submit_button{
+    background-color: $main_blue_color;
+    padding:10px 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    span{
+      color: white;
+    }
+    &:hover{
+      background-color: #2aabd2;
+    }
+  }
+}
+
+
+.member_login_form_tags{
+  display: inline-block;
+  width: 100%;
+  .member_login_form_tags_item{
+    width: 50%;
+    float: left;
+    cursor: pointer;
+    span{
+      display: inline-block;
+      padding:10px 0px;
+      font-size: 16px;
+    }
+  }
+  & .pt_active{
+    span{
+      border-bottom: 2px solid $main_blue_color;
+    }
+  }
+}

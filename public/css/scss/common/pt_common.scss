@@ -1,0 +1,17 @@
+@import "pt_color";
+@import "pt_foot";
+@import "pt_header_top";
+@import "pt_mixins";
+
+.container{
+  width: 1170px !important;
+}
+
+.warp{
+  min-width: 1170px !important;
+}
+
+.button-disabled{
+  opacity: 0.65;
+  cursor:not-allowed;
+}

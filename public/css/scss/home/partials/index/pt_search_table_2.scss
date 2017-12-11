@@ -1,0 +1,152 @@
+.demand_nav{
+  position: relative;
+  left: -50px;
+  width: 30%;
+  top: -30px;
+  & > ul > li{
+    display: block;
+    height: 161px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid white;
+    transition:all 0.2s;
+    a{
+      font-size: 20px;
+      width: 100%;
+      display: block;
+      color: #444;
+      line-height: 161px;
+      text-decoration: none;
+    }
+  }
+}
+
+.demand_nav_li_active{
+  background-color: white !important;
+  a{
+    color: $main_blue_color !important;
+  }
+}
+
+
+.demand_content{
+  width: 70%;
+}
+
+.demand_content_item{
+  display: none;
+}
+
+.demand_content_item_active{
+  display: block;
+}
+
+.demand_title{
+  & > ul{
+    margin: 0px;
+    li {
+      border: 1px solid #e6e6e6;
+      padding: 0px;
+      a{
+        color: #444;
+        text-decoration: none;
+        padding: 0px 10px;
+        display: inline-block;
+        &:hover{
+          color: $main_blue_color;
+        }
+        p{
+          margin: 0px;
+          line-height: 30px;
+          font-size:10px;
+        }
+      }
+    }
+  }
+}
+
+.demand_title_li_active{
+  border: 1px solid $main_blue_color !important;
+  a{
+    color: $main_blue_color !important;
+  }
+}
+
+.demand_content_info{
+  margin-top: 60px;
+}
+
+.demand_content_info_textarea{
+  max-height: 152px;
+  border: 1px solid #e6e6e6;
+  overflow: hidden;
+  & > textarea{
+    border-radius: 0px;
+    resize:none;
+    border: 0px none;
+    margin-top: 65px;
+  }
+}
+
+.demand_input_submit{
+    margin-top: 30px;
+}
+
+.demand_input_submit_input{
+  & > input{
+    border-radius: 0px;
+  }
+  & span {
+    button{
+      top: -6px;
+      left: -100px;
+      border-radius: 0px;
+    }
+  }
+  & > button{
+    color: white;
+    background-color: $main_blue_color;
+    border-radius: 0px;
+    position: relative;
+    top: -13px;
+    transition: all 0.2s;
+    &:hover , &:focus{
+      background-color: #2aabd2;
+      color: white;
+    }
+  }
+}
+
+.demand_input_submit_input_phone{
+  width: 40% !important;
+}
+
+.demand_input_submit_input_verification_code{
+  margin-left: 77px !important;
+  width: 30% !important;
+}
+
+.textarea_box{
+  position: absolute;
+  top:490px;
+  padding: 0px 10px;
+}
+
+.textarea_box_tit_item{
+  span{
+    color: #444;
+  }
+  input{
+    border-bottom:1px solid $main_border_color ;
+    border-right:0px;
+    border-left:0px;
+    border-top:0px;
+    &:focus{
+      outline: none;
+      border-bottom:1px solid $main_blue_color ;
+    }
+  }
+}
+
+.textarea_box_tit_item > .textarea_box_tit_item_redio{
+  cursor: default;
+}

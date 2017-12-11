@@ -1,0 +1,123 @@
+.header-top-warp{
+  width: 100%;
+  background-color: $header-top-warp-background-color;
+  & ul{
+    display: inline-block;
+    padding:0px;
+    margin-bottom:0px;
+  }
+}
+
+.header-top-warp_left_tit{
+  float: left;
+  li{
+    cursor: pointer;
+    padding: 0px;
+  }
+}
+
+.header-top-warp_item_dis_tit{
+  color: $header-top-warp_font_color;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  position: relative;
+  z-index: 2;
+  transition: all 0.2s;
+  padding: 0px 10px;
+  span{
+    height: 37px;
+    line-height: 37px;
+  }
+}
+
+.header-top-warp_item_dis_tit_active{
+  border-left: 1px solid $main_border_color;
+  border-right: 1px solid $main_border_color;
+  background-color: white;
+  //box-shadow: 0 3px 8px rgba(0,0,0,.08);
+}
+
+.header-top-warp_item_dis_con{
+  max-width: 14%;
+  padding: 15px;
+  border: 1px solid $main_border_color;
+  background-color: white;
+  position: absolute;
+  top:38px;
+  z-index: 1;
+  & img{
+    width:150px;
+  }
+  & ul{
+    margin: 0px;
+    & li {
+      width: 30%;
+      margin: 6px 4px 0px 0px;
+      span{
+        color: #444;
+        &:hover{
+          color: $main_blue_color;
+        }
+      }
+    }
+  }
+}
+
+.city_title{
+  border-bottom: 1px dashed $dashed_color;
+  span{
+    display: inline-block;
+    color: $main_blue_color;
+  }
+}
+
+
+.header-top-warp_right_tit{
+  & > li {
+    & > a{
+      text-decoration: none;
+      height: 37px;
+      line-height: 37px;
+      color: $header-top-warp_font_color;
+    }
+  }
+}
+
+
+
+.header-nav-top{
+  & ul{
+    margin-top: 10px;
+  }
+}
+
+.header_nav_top_ul{
+  li{
+    padding: 0px;
+    height: 100%;
+    vertical-align: middle;
+    a{
+      color: #444;
+      text-decoration: none;
+      padding-right:14px;
+      font-size:15px;
+      font-weight: 700;
+      height: 70px;
+      line-height: 70px;
+      display: inline-block;
+      span{
+        padding:6px 0px;
+      }
+    }
+  }
+  img{
+    height:70px;
+  }
+}
+.index_span_btn_css{
+  color: $main_blue_color !important;
+}
+
+.header_nav_top_active{
+  border-bottom: 2px solid $main_blue_color;
+}

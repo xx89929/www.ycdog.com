@@ -1,0 +1,18 @@
+.pt_services_show_left{
+  padding:0px;
+  min-height: 1000px;
+}
+
+.pt_services_show_right{
+  padding:0px 0px 0px 10px;
+  min-height: 1000px;
+}
+
+/***********show_nav*********/
+@import "pt_services_show_nav";
+
+/**********show_item*********/
+@import "pt_services_show_tiem";
+
+/**********show_sidebar*****/
+@import "pt_show_sidebar";

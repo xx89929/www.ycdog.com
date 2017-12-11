@@ -1,0 +1,64 @@
+/**********search_table_0**********/
+@import "pt_search_table_0";
+
+/**********search_table_1**********/
+@import "pt_search_table_1";
+
+/**********search_table_2**********/
+@import "pt_search_table_2";
+
+.pt_search_warp{
+  height: 719px;
+  overflow: hidden;
+}
+
+.pt_search{
+  padding:0px;
+  box-shadow: 0 3px 40px 0 rgba(0,0,0,.5);
+  margin-top:80px;
+  height:555px;
+  background-color: #ffffff;
+  & > ul {
+    margin-left: 0px;
+  }
+}
+
+.pt_search_title_ctr{
+  background-color: #e8e8e8;
+  border-right: 1px solid #ffffff;
+  transition:all 0.2s;
+  height: 72px;
+  cursor:pointer;
+  & > p{
+    height: 72px;
+    line-height: 72px;
+    color: #444;
+    font-size: 30px;
+    margin: 0px;
+    padding:0px;
+
+  }
+  & > span{
+    position: relative;
+    color: #747474;
+    font-size: 14px;
+    left: 126px;
+    top: -34px;
+  }
+}
+
+.pt_search_title_ctr_active{
+  background-color: #ffffff;
+  margin-top: -10px;
+}
+
+
+
+.pt_search_item_chunk{
+  display: none;
+  & .row > ul > li > a{
+    text-decoration: none;
+    color: #9d9d9d;
+  }
+}
+

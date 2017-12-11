@@ -1,0 +1,13 @@
+@import "../common/pt_common";
+
+@import "partials/member_manage_sidebar";
+
+
+.member_manage_warp{
+  width: 100%;
+  background-color: $gray_background_color;
+}
+
+.member_manage_warp_box{
+  margin-top: 20px;
+}

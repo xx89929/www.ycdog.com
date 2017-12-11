@@ -1,0 +1,81 @@
+
+.pt_services_show_nav{
+  display: inline-block;
+  border: 1px solid $main_border_color;
+}
+
+.services_classifys{
+  background-color: $gray_background_color;
+  width: 100%;
+  border-bottom: 1px dashed $dashed_color;
+  &:last-child{
+    border-bottom: 0;
+  }
+}
+
+.services_classifys_tit{
+  min-height: 38px;
+  width: 20%;
+  padding: 0px;
+  span{
+    color: $header-top-warp_font_color;
+    height: 38px;
+    line-height: 38px;
+  }
+
+}
+
+.services_classifys_tag{
+  min-height: 38px;
+  width: 80%;
+  & .services_classifys_tags_more{
+    background: white;
+  }
+  ul{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    li{
+      border: 1px solid transparent;
+      padding: 0px;
+      cursor: pointer;
+      height: 38px;
+      &:hover{
+        a{
+          color: $main_blue_color;
+        }
+      }
+      a{
+        margin-left: 15px;
+        margin-right: 15px;
+        color: $main_black_font_color;
+        height: 38px;
+        line-height: 38px;
+      }
+    }
+  }
+}
+
+.services_classifys_tags_active{
+  a{
+    color: $main_blue_color !important;
+  }
+}
+
+.more_tag_button{
+  margin-right: 10px;
+  span{
+    color: $header-top-warp_font_color;
+    padding:0px 5px;
+    border: 1px solid $dashed_color;
+    height: 35px;
+    line-height: 35px;
+    &:hover{
+      color: $main_blue_color;
+    }
+  };
+}
+
+.services_classifys_tags_more{
+  display: none;
+}
