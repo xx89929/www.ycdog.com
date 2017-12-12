@@ -13,7 +13,7 @@ $('.excellent_companys_nav > ul > li').on('mousemove click',function () {
     var $this = $(this);
     var $index = $this.index();
     $this.addClass('excellent_companys_nav_li_active').siblings().removeClass('excellent_companys_nav_li_active');
-    $('.excellent_companys_content').find('ul.excellent_companys_content_item').eq($index).show().siblings().hide();
+    $('.excellent_companys_content').find('div.excellent_companys_content_item').eq($index).show().siblings().hide();
     return false;
 })
 

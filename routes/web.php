@@ -17,8 +17,8 @@
 Route::get('member_register','Home\CommonController@member_register')->name('member_register');
 Route::get('member_login','Home\CommonController@member_login')->name('member_login');
 
-Route::group(['namespace' => 'Auth'],function(){
-    Route::get('member/index','IndexController@index')->name('member_index');
+Route::group(['namespace' => 'ManageDemandRole'],function(){
+    Route::get('managedemandrole/index','IndexController@index')->name('manage_demand_role_index');
 });
 
 Route::group(['namespace' => 'Home',] , function (){

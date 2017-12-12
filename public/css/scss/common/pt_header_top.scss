@@ -38,7 +38,7 @@
 }
 
 .header-top-warp_item_dis_con{
-  max-width: 14%;
+  min-width: 1%;
   padding: 15px;
   border: 1px solid $main_border_color;
   background-color: white;
@@ -71,6 +71,10 @@
   }
 }
 
+.city_content{
+  width: 210px;
+}
+
 
 .header-top-warp_right_tit{
   & > li {
@@ -81,6 +85,13 @@
       color: $header-top-warp_font_color;
     }
   }
+}
+
+.head_nickname_style{
+  a{
+    color: $main_blue_color !important;
+  }
+
 }
 
 

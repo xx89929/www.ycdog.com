@@ -1,12 +1,16 @@
 .excellent_companys_nav{
   padding:0px;
-  & ul > li{
-    padding:4px 14px;
-    a{
-      display: inline-block;
-      text-decoration: none;
-      color: #444;
-      font-size: 20px;
+  display: inline-block;
+  & ul {
+    margin: 0px;
+    li{
+      padding:4px 14px;
+      a{
+        display: inline-block;
+        text-decoration: none;
+        color: #444;
+        font-size: 20px;
+      }
     }
   }
 }
@@ -44,26 +48,27 @@
 }
 
 .excellent_companys_content{
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .excellent_companys_content_item{
   display: none;
-  & > li{
-    width: 32%;
-    border: 1px solid #eee;
-    padding: 15px;
-    margin: 5px 4px;
-    transition: all 0.2s;
-    &:hover{
-      border: 1px solid $main_blue_color;
+  ul{
+    margin-left: 0px;
+    li{
+      height: 162px;
+      width: 33%;
+      border: 1px solid #eee;
+      padding: 15px;
+      transition: all 0.2s;
+      &:hover{
+        border: 1px solid $main_blue_color;
+      }
+    }
+    & > a{
+      text-decoration: none;
     }
   }
-  & > a{
-    text-decoration: none;
-  }
-
-
 }
 
 .excellent_companys_content_item_left{
@@ -73,9 +78,12 @@
     color: #444;
   }
   p{
+    overflow: hidden;
+    height: 60px;
     color: #bebebe;
   }
   span{
+    padding: 2px 5px;
     border: 1px solid #e7e7e7;
     color: #6d6d6d;
   }

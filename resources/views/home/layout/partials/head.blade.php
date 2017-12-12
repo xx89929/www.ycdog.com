@@ -36,6 +36,7 @@
             </ul>
 
             <ul class="list-inline text-center header-top-warp_right_tit pull-right">
+                <li class="head_nickname_style"><a href="{{route('manage_demand_role_index')}}">昵称XXXX</a></li>
                 <li><a href="{{route('member_register')}}">注册</a></li>
                 <li><a href="{{route('member_login')}}">登陆</a></li>
             </ul>

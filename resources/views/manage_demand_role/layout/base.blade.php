@@ -4,21 +4,18 @@
     <meta charset="utf-8" />
     <title>{{$page_title}}</title>
     <link rel="stylesheet" href="{{url('bootstrap/dist/css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{url('css/scss/member_manage/member_manage.css')}}">
-    @if ($base_scss)
-        <link rel="stylesheet" href="{{$base_scss}}">
-    @endif
+    <link rel="stylesheet" href="{{url('css/scss/manage_demand_role/manage_demand_role.css')}}">
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="warp">
     @include('home.layout.partials.head')
     @include('home.layout.partials.header-nav')
-    <div class="member_manage_warp">
+    <div class="manage_demand_warp">
         <div class="container">
             <div class="row">
-                <div class="member_manage_warp_box clearfix">
-                    @include('member_manage.layout.partials.member_manage_sidebar')
+                <div class="manage_demand_warp_box clearfix">
+                    @include('manage_demand_role.layout.partials.manage_demand_role_sidebar')
                     @yield('content')
                 </div>
             </div>

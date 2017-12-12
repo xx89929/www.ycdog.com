@@ -1,5 +1,9 @@
-.pt_search_index_logo{
-  padding:10px 30%;
+.pt_search_index_warp{
+  width: 100%;
+}
+
+.pt_search_index_logo_box{
+  display: inline-block;
 }
 
 .index_logo{
@@ -19,7 +23,7 @@
 
 
 .pt_search_all{
-  margin: 40px auto 10px;
+  padding:40px 40px 10px;
   input{
     border-radius: 0px;
     height: 50px;
@@ -47,4 +51,12 @@
   width: 100%;
   float: left;
   padding:30px 50px;
+}
+
+.pt_search_all_hint{
+  padding:0px 40px;
+  a{
+    text-decoration: none;
+    color: #6d6d6d;
+  }
 }

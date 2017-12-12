@@ -1,0 +1,123 @@
+.index_warp{
+  width: 84%;
+}
+
+.manage_demand_user_accout_head_comm_left{
+  float: left;
+  padding:10px 20px;
+  background-color: white;
+  width: 70%;
+}
+
+
+.manage_demand_user_accout_head_portrait{
+  width: 10%;
+  img{
+    width: 80px;
+    height:80px;
+  }
+}
+
+.manage_demand_user_accout_head_right_top{
+  height: 40px;
+  width: 90%;
+}
+
+.manage_demand_user_accout_nickname{
+  float: left;
+  span{
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+
+.manage_demand_user_accout_head_right_ul{
+  float: right;
+  ul{
+    padding:0px;
+    margin: 0px;
+    li{
+      a{
+        text-decoration: none;
+        span{
+          color: $main_black_font_color;
+          height: 40px;
+          line-height: 40px;
+        }
+        &:hover{
+          span{
+            color: $main_blue_color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.manage_demand_user_accout_head_right_buttom{
+  width: 90%;
+  border-top: 1px solid $main_border_color;
+  ul{
+    padding:10px 0px;
+    margin: 0px;
+    li{
+      width: 32%;
+      text-align: center;
+      border-right: 1px solid $main_border_color;
+      a{
+        width: 100%;
+        text-decoration: none;
+        span{
+
+          color: $main_black_font_color;
+          height: 20px;
+          line-height: 20px;
+        }
+        &:hover{
+          span{
+            color: $main_blue_color;
+          }
+        }
+      }
+      &:last-child{
+        border-right: 0px;
+      }
+    }
+  }
+}
+
+.manage_demand_user_accout_head_comm_right{
+  padding:20px;
+  margin-left: 1%;
+  float: left;
+  background-color: white;
+  width: 29%;
+  height: 101px;
+}
+
+.manage_demand_user_accout_head_comm_tit{
+  width: 100%;
+  margin-top: 18px;
+  a{
+    text-decoration: none;
+    color: $main_black_font_color;
+    i{
+      color: #FF6600;
+    }
+
+  }
+  botton{
+    background-color: $main_blue_color;
+    color: white;
+    transition: all 0.2s;
+    &:hover{
+      color: white;
+      background-color: #2aabd2;
+    }
+  }
+  &:first-child{
+    margin-top: 0px;
+  }
+
+}

@@ -37,7 +37,7 @@
   background-color: white; }
 
 .header-top-warp_item_dis_con {
-  max-width: 14%;
+  min-width: 1%;
   padding: 15px;
   border: 1px solid #e0e0e0;
   background-color: white;
@@ -62,11 +62,17 @@
     display: inline-block;
     color: #337ab7; }
 
+.city_content {
+  width: 210px; }
+
 .header-top-warp_right_tit > li > a {
   text-decoration: none;
   height: 37px;
   line-height: 37px;
   color: #8c8c8c; }
+
+.head_nickname_style a {
+  color: #337ab7 !important; }
 
 .header-nav-top ul {
   margin-top: 10px; }
@@ -107,8 +113,11 @@
 
 /***********Search***************/
 /**********search_table_0**********/
-.pt_search_index_logo {
-  padding: 10px 30%; }
+.pt_search_index_warp {
+  width: 100%; }
+
+.pt_search_index_logo_box {
+  display: inline-block; }
 
 .index_logo img {
   width: 150px;
@@ -120,7 +129,7 @@
   line-height: 150px; }
 
 .pt_search_all {
-  margin: 40px auto 10px; }
+  padding: 40px 40px 10px; }
   .pt_search_all input {
     border-radius: 0px;
     height: 50px;
@@ -144,16 +153,25 @@
   float: left;
   padding: 30px 50px; }
 
+.pt_search_all_hint {
+  padding: 0px 40px; }
+  .pt_search_all_hint a {
+    text-decoration: none;
+    color: #6d6d6d; }
+
 /**********search_table_1**********/
 .excellent_companys_nav {
-  padding: 0px; }
-  .excellent_companys_nav ul > li {
-    padding: 4px 14px; }
-    .excellent_companys_nav ul > li a {
-      display: inline-block;
-      text-decoration: none;
-      color: #444;
-      font-size: 20px; }
+  padding: 0px;
+  display: inline-block; }
+  .excellent_companys_nav ul {
+    margin: 0px; }
+    .excellent_companys_nav ul li {
+      padding: 4px 14px; }
+      .excellent_companys_nav ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #444;
+        font-size: 20px; }
 
 .excellent_companys_nav_li_active {
   background-color: #337ab7; }
@@ -178,20 +196,22 @@
     color: white; }
 
 .excellent_companys_content {
-  margin-top: 30px; }
+  margin-top: 40px; }
 
 .excellent_companys_content_item {
   display: none; }
-  .excellent_companys_content_item > li {
-    width: 32%;
-    border: 1px solid #eee;
-    padding: 15px;
-    margin: 5px 4px;
-    transition: all 0.2s; }
-    .excellent_companys_content_item > li:hover {
-      border: 1px solid #337ab7; }
-  .excellent_companys_content_item > a {
-    text-decoration: none; }
+  .excellent_companys_content_item ul {
+    margin-left: 0px; }
+    .excellent_companys_content_item ul li {
+      height: 162px;
+      width: 33%;
+      border: 1px solid #eee;
+      padding: 15px;
+      transition: all 0.2s; }
+      .excellent_companys_content_item ul li:hover {
+        border: 1px solid #337ab7; }
+    .excellent_companys_content_item ul > a {
+      text-decoration: none; }
 
 .excellent_companys_content_item_left {
   float: left;
@@ -199,8 +219,11 @@
   .excellent_companys_content_item_left h4 {
     color: #444; }
   .excellent_companys_content_item_left p {
+    overflow: hidden;
+    height: 60px;
     color: #bebebe; }
   .excellent_companys_content_item_left span {
+    padding: 2px 5px;
     border: 1px solid #e7e7e7;
     color: #6d6d6d; }
 
@@ -369,9 +392,6 @@
 
 .pt_search_item_chunk {
   display: none; }
-  .pt_search_item_chunk .row > ul > li > a {
-    text-decoration: none;
-    color: #9d9d9d; }
 
 /**********pt_services_show**********/
 .pt_services_show_left {

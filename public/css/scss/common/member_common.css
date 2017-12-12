@@ -36,7 +36,7 @@
   background-color: white; }
 
 .header-top-warp_item_dis_con {
-  max-width: 14%;
+  min-width: 1%;
   padding: 15px;
   border: 1px solid #e0e0e0;
   background-color: white;
@@ -61,11 +61,17 @@
     display: inline-block;
     color: #337ab7; }
 
+.city_content {
+  width: 210px; }
+
 .header-top-warp_right_tit > li > a {
   text-decoration: none;
   height: 37px;
   line-height: 37px;
   color: #8c8c8c; }
+
+.head_nickname_style a {
+  color: #337ab7 !important; }
 
 .header-nav-top ul {
   margin-top: 10px; }
